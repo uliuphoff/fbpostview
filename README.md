@@ -20,7 +20,7 @@ When saving all your data from Facebook on your local computer you get an archiv
 fbpostview is witten to view the content of the file "your_posts.json" in order to create a simple diary 
 
 1) Create a working diary
-2) So copy your_posts.json in a directory, 
-3) also copy the directory photos_and_videos in this directory
-4) copy fbpostview into this directory
-5) Then run fbpostview in jupyter.
+2) Copy the posts directory from your facebook-data archive into your working directory
+3) Check if there is a file named your_posts_1.json in taht posts directory (if it is named your_posts.json, rename it to your_posts_1.json)
+4) copy fbpostview into your working directory
+5) Open a jupyter notebook in your working directory and run fbpostview.
